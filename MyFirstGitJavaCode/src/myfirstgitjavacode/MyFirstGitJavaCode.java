@@ -17,7 +17,7 @@ public class MyFirstGitJavaCode {
     public static void main(String[] args) {
         // TODO code application logic here
         addition ob = new addition();
-        int returnval = ob.add(10, 8);
+        int returnval = ob.add(10, 9);
         System.out.println("Return val : " + returnval);
     }
 
@@ -26,6 +26,7 @@ public class MyFirstGitJavaCode {
 class addition {
 
     public int add(int a, int b) {
+        
         int c = a + b;
         return c;
     }
