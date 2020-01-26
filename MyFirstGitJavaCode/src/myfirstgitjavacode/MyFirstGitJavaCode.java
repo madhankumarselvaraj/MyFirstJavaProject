@@ -17,7 +17,7 @@ public class MyFirstGitJavaCode {
     public static void main(String[] args) {
         // TODO code application logic here
         addition ob = new addition();
-        int returnval = ob.add(4, 8);
+        int returnval = ob.add(10, 8);
         System.out.println("Return val : " + returnval);
     }
 
